@@ -21,6 +21,8 @@
 //
 //=========================================================================
 
+#define __AVR_LIBC_DEPRECATED_ENABLE__
+
 #include <avr/io.h>
 #include "ppm.h"
 #include <avr/interrupt.h>
